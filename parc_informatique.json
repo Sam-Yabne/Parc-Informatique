@@ -1,0 +1,216 @@
+[
+    {
+        "ID du matériel": "MAC-INF-P1",
+        "Nom": "Poste 01",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QP0Y7G1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P3",
+        "Nom": "Poste 03",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QP0XBG1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P4",
+        "Nom": "Poste 04",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QP0VLG1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P8",
+        "Nom": "Poste 08",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QN0LHG1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P9",
+        "Nom": "Poste 09",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QP0XLG1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P11",
+        "Nom": "Poste 11",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QP0X3G1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P12",
+        "Nom": "Poste 12",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QP0Y5G1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P13",
+        "Nom": "Poste 13",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QN0DMG1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P14",
+        "Nom": "Poste 14",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QN0HQG1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P15",
+        "Nom": "Poste 15",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,7",
+        "N° de serie": "C07QN0TWG1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-INF-P16",
+        "Nom": "Poste 16",
+        "Domaine": "Salle informatique",
+        "Emplacement": "Salle informatique",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07QN0F9G1HV",
+        "Logiciel utilisé": "Office Word et Powerpoint",
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-CL-CP1",
+        "Nom": "CP1",
+        "Domaine": "CLASSE",
+        "Emplacement": "CP-1",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C07WC142G1HV",
+        
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-CL-CP2",
+        "Nom": "CP2",
+        "Domaine": "CLASSE",
+        "Emplacement": "CP-2",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 4Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,7",
+        "N° de serie": "C07SN16NG1HV",
+        
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-CL-CE1/1",
+        "Nom": "CE1-1",
+        "Domaine": "CLASSE",
+        "Emplacement": "CE1-1",
+        "Caractéristique": "Processeur 1,4GHz core i5 double cœur Mémoire 8Go RAM 1600 MHZ DDR3 ",
+        "Version OS": "Mac OS Monterey 12,1",
+        "N° de serie": "C07WL083G1J0",
+       
+        "Date d'aquisition": "Mac mini fin 2014"
+    },
+    {
+        "ID du matériel": "MAC-CL-CE1/2",
+        "Nom": "CE1-2",
+        "Domaine": "CLASSE",
+        "Emplacement": "CE1-2",
+        "Caractéristique": "Processeur 2,6GHz core i5 double cœur Mémoire 8Go RAM 1600 MHZ DDR3",
+        "Version OS": "Mac OS Monterey 12,7",
+        "N° de serie": "C07VP6WGG1HW"
+       
+    },
+    {
+        "ID du matériel": "MAC-CL-CE2/1",
+        "Nom": "CE2-1",
+        "Domaine": "CLASSE",
+        "Emplacement": "CE2-1",
+        "Caractéristique": "Processeur 2,6GHz core i5 double cœur Mémoire 16Go RAM 1600 MHZ DDR3",
+        "Version OS": "Mac OS Monterey 12,6,9",
+        "N° de serie": "C0KV600RGF1Q"
+ 
+    },
+    {
+        "ID du matériel": "MAC-CL-CM1/1",
+        "Nom": "CM1/1",
+        "Domaine": "CLASSE",
+        "Emplacement": "CM1-1",
+        "Caractéristique": "Processeur 2,6GHz core i5 double cœur Mémoire 8Go RAM 1600 MHZ DDR3",
+        "Version OS": "Mac OS Monterey 12,6,7",
+        "N° de serie": "C0KS501QGF1Q"
+      
+    },
+    {
+        "ID du matériel": "MAC-CL-CM1/2",
+        "Nom": "CM1/2",
+        "Domaine": "CLASSE",
+        "Emplacement": "CM1-2",
+        "Caractéristique": "Processeur 2,5GHz core i5 Mémoire 8Go RAM 1333 MHZ DDR3",
+        "Version OS": "MACOs HIGH SIERRA 10,13,6",
+        "N° de serie": "C07G3Q9WDJD1"
+        
+    },
+    {
+        "ID du matériel": "MAC-CL-CM2/1",
+        "Nom": "CM2/1",
+        "Domaine": "CLASSE",
+        "Emplacement": "CM2-1",
+        "Caractéristique": "Processeur 2,6GHz core i5 double cœur Mémoire 8Go RAM 1600 MHZ DDR3",
+        "Version OS": "Mac OS Monterey 12,6,8",
+        "N° de serie": "C0KS3005GF1Q"
+       
+    },
+    {
+        "ID du matériel": "MAC-CL-CM2/2",
+        "Nom": "CM2-2",
+        "Domaine": "CLASSE",
+        "Emplacement": "CM2-2",
+        "Caractéristique": "Processeur 2,6GHz core i5 double cœur Mémoire 8Go RAM 1600 MHZ DDR3",
+        "Version OS": "Mac OS Monterey 12,6,8",
+        "N° de serie": "C0KS501SGF1Q"
+    
+    }
+]
