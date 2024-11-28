@@ -3,6 +3,6 @@ h1{
 }
 @media (max-width: 767px){
     h1 {
-        color :green; 
+        color:green  !important; 
     }
 }
