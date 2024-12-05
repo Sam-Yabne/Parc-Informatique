@@ -1,0 +1,105 @@
+/* Style général pour le body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    height: 100%; /* S'assure que la hauteur est bien prise en compte */
+    overflow-y: auto; /* Ajoute un défilement vertical */
+}
+
+/* Bandeau de navigation */
+.bandeau {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Ajoute de l'espace sous le bandeau pour éviter de masquer le titre */
+main {
+    margin-top: 80px; /* Ajoute de l'espace pour le titre */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #b3000c;
+}
+
+/* Style pour les rectangles de l'accueil */
+.rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    width: 1100px;
+    height: 25vh;
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.rectangle:hover {
+    background-color: #b3000c;
+}
+
+/* Conteneur des salles pour chaque étage */
+.etage-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour afficher les salles */
+    gap: 20px; /* Espace entre les cubes */
+    justify-items: center;
+    width: 90%; /* Permet à la grille de prendre toute la largeur */
+    margin: 0 auto;
+}
+
+/* Style des cubes pour représenter les salles */
+.cube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px; /* Largeur des cubes */
+    height: 150px; /* Hauteur des cubes */
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.cube:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Agrandit légèrement le cube au survol */
+}
+
+/* Style pour le titre de chaque étage */
+h1 {
+    text-align: center;
+    margin: 40px 0;
+    padding-top: 60px; /* Ajoute de l'espace pour le titre en dessous du bandeau */
+}
