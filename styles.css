@@ -103,3 +103,52 @@ h1 {
     margin: 40px 0;
     padding-top: 60px; /* Ajoute de l'espace pour le titre en dessous du bandeau */
 }
+/* Container pour l'image et les informations */
+.salle-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+/* Style pour l'image */
+.image-container {
+    flex: 1; /* Permet à l'image d'occuper une largeur */
+    max-width: 400px; /* Limite la taille de l'image */
+}
+
+.salle-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container pour les informations */
+.info-container {
+    flex: 2; /* L'information prend plus de place */
+    width: 100%;
+}
+
+/* Style du tableau d'informations */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+table td strong {
+    font-weight: bold;
+}
+
+table img {
+    width: 100px; /* Taille du QR code */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
