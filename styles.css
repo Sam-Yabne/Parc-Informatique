@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 /* Style général pour le body */
 body {
     display: flex;
@@ -6,8 +13,8 @@ body {
     margin: 0;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-    height: 100%;
-    overflow-y: auto;
+    height: 100%; /* S'assure que la hauteur est bien prise en compte */
+    overflow-y: auto; /* Ajoute un défilement vertical */
 }
 
 /* Bandeau de navigation */
@@ -26,12 +33,11 @@ body {
     z-index: 1000;
 }
 
-/* Ajoute de l'espace sous le bandeau */
+/* Ajoute de l'espace sous le bandeau pour éviter de masquer le titre */
 main {
-    margin-top: 80px;
+    margin-top: 80px; /* Ajoute de l'espace pour le titre */
 }
 
-/* Liens de navigation */
 .nav-link {
     text-decoration: none;
     color: white;
@@ -45,7 +51,7 @@ main {
     background-color: #b3000c;
 }
 
-/* Style pour les rectangles */
+/* Style pour les rectangles de l'accueil */
 .rectangle {
     display: flex;
     align-items: center;
@@ -53,7 +59,7 @@ main {
     text-decoration: none;
     color: white;
     background-color: grey;
-    width: 90%; /* S'ajuste automatiquement à la taille de l'écran */
+    width: 1100px;
     height: 25vh;
     margin: 10px 0;
     font-size: 24px;
@@ -66,23 +72,23 @@ main {
     background-color: #b3000c;
 }
 
-/* Conteneur pour les salles */
+/* Conteneur des salles pour chaque étage */
 .etage-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour afficher les salles */
+    gap: 20px; /* Espace entre les cubes */
     justify-items: center;
-    width: 90%;
+    width: 90%; /* Permet à la grille de prendre toute la largeur */
     margin: 0 auto;
 }
 
-/* Style des cubes */
+/* Style des cubes pour représenter les salles */
 .cube {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 150px;
+    width: 250px; /* Largeur des cubes */
+    height: 150px; /* Hauteur des cubes */
     background-color: #007bff;
     color: white;
     text-align: center;
@@ -95,56 +101,43 @@ main {
 
 .cube:hover {
     background-color: #0056b3;
-    transform: scale(1.1);
+    transform: scale(1.1); /* Agrandit légèrement le cube au survol */
 }
 
-/* Titre des étages */
+/* Style pour le titre de chaque étage */
 h1 {
     text-align: center;
     margin: 40px 0;
-    padding-top: 60px;
+    padding-top: 60px; /* Ajoute de l'espace pour le titre en dessous du bandeau */
 }
-
-/* Conteneur pour l'image */
-.image-container {
-    position: relative;
-    overflow: hidden;
-    max-width: 100%; /* Rend responsive */
-    height: auto; /* Conserve les proportions */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-    object-fit: cover; /* Gère les proportions */
-    transition: transform 0.3s ease-in-out;
-}
-
-.image-container:hover img {
-    transform: scale(1.2);
-}
-
-.image-container:hover {
-    transform: scale(1.05);
-}
-
-/* Conteneur pour les infos */
+/* Container pour l'image et les informations */
 .salle-container {
     display: flex;
-    flex-wrap: wrap; /* S'ajuste en mobile */
     justify-content: space-between;
-    gap: 20px;
     margin-top: 20px;
+    gap: 20px;
 }
 
+/* Style pour l'image */
+.image-container {
+    flex: 1; /* Permet à l'image d'occuper une largeur */
+    max-width: 400px; /* Limite la taille de l'image */
+}
+
+.salle-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container pour les informations */
 .info-container {
-    flex: 1;
+    flex: 2; /* L'information prend plus de place */
+    width: 100%;
 }
 
-/* Tableau d'informations */
+/* Style du tableau d'informations */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -154,4 +147,79 @@ table td {
     padding: 10px;
     border: 1px solid #ddd;
     font-size: 16px;
+}
+
+table td strong {
+    font-weight: bold;
+}
+
+table img {
+    width: 100px; /* Taille du QR code */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.id-img{
+    width: 1400px;
+    height: 500px;
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .image-container:hover img {
+    transform: scale(1.2);
+  }
+
+  .image-container:hover {
+    transform: scale(1.05);
+  }
+  /* Style pour les containers des imprimantes */
+.printer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.printer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.printer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Style pour les images */
+.printer-image {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
