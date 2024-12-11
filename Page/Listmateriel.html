@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-
+    <script>
+        if (sessionStorage.getItem("authenticated") !== "true") {
+            alert("Vous devez vous connecter pour accéder à cette page.");
+            window.location.href = "../index.html";
+        }
+    </script>
     <nav class="bandeau">
         <a href="../index.html" class="nav-link">Accueil</a>
         <a href="../Page/page2.html" class="nav-link">Liste de logiciel</a>
