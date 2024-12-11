@@ -24,5 +24,6 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
 document.getElementById("logout").addEventListener("click", function () {
     localStorage.removeItem("authenticated"); // Supprime l'état d'authentification
     alert("Vous avez été déconnecté.");
-    window.location.href = "../index.html"; // Redirection vers la page de connexion
+    window.location.href = "./index.html"; // Redirection vers la page d'accueil (connexion)
 });
+
