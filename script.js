@@ -15,7 +15,7 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
     // Vérification des identifiants
     if (username === correctUsername && password === correctPassword) {
         alert("Connexion réussie !");
-        window.location.href = "index.html"; // Redirection vers une autre page
+        window.location.href = "PageAcceuil.html"; // Redirection vers une autre page
     } else {
         errorMessage.textContent = "Nom d'utilisateur ou mot de passe incorrect.";
     }
