@@ -1,4 +1,4 @@
-// script.js
+// script.js (connexion)
 document.getElementById("login-form").addEventListener("submit", function (e) {
     e.preventDefault(); // Empêche le rechargement de la page
 
@@ -14,9 +14,15 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
 
     // Vérification des identifiants
     if (username === correctUsername && password === correctPassword) {
+        localStorage.setItem("authenticated", "true"); // Utiliser localStorage pour conserver la session
         alert("Connexion réussie !");
         window.location.href = "PageAcceuil.html"; // Redirection vers une autre page
     } else {
         errorMessage.textContent = "Nom d'utilisateur ou mot de passe incorrect.";
     }
+});
+document.getElementById("logout").addEventListener("click", function () {
+    localStorage.removeItem("authenticated"); // Supprime l'état d'authentification
+    alert("Vous avez été déconnecté.");
+    window.location.href = "../index.html"; // Redirection vers la page de connexion
 });
